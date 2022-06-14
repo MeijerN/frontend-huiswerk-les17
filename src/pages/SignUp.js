@@ -9,7 +9,10 @@ function SignUp() {
         harum, numquam, placeat quisquam repellat rerum suscipit ullam vitae. A ab ad assumenda, consequuntur deserunt
         doloremque ea eveniet facere fuga illum in numquam quia reiciendis rem sequi tenetur veniam?</p>
       <form>
-        <p>*Invoervelden*</p>
+          <input type="text" name="username" placeholder="Gebruikersnaam"/>
+          <input type="email" name="email" placeholder="Email"/>
+          <input type="password" name="password" placeholder="Wachtwoord"/>
+
       </form>
       <p>Heb je al een account? Je kunt je <Link to="/signin">hier</Link> inloggen.</p>
     </>
